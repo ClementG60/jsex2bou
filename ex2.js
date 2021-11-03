@@ -1,7 +1,7 @@
 for (let i = 0; i < 101; i++) {
     if (i % 15 == 0) {
-        console.log("...")
+        document.write("...<br>")
     } else {
-        console.log(i)
+        document.write(i, "<br>")
     }
 }
